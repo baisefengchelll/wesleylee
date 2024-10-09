@@ -1,9 +1,7 @@
 #include <iostream>
-#include <chrono>
-#include "sqstack.h"
-extern int MAXSIZE;
+#include <string.h>
 int main()
 {
-    int a = MAXSIZE;
-    std::cout << a <<std::endl;
+    char a1[10] = "abac";
+    std::cout << strlen(a1) << std::endl;
 }

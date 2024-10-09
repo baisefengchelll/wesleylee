@@ -55,7 +55,7 @@ void DeLinkQueue(LinkQueue &lq, QElemType &e)
     delete p;
 }
 
-// 链队列操作——求链队列的对头元素
+// 链队列操作——求链队列的队头元素
 void Gethead(LinkQueue &lq, QElemType &e)
 {
     if (lq.front == lq.rear)
