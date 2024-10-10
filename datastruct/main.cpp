@@ -1,7 +1,7 @@
 #include <iostream>
-#include <string.h>
+
 int main()
 {
-    char a1[10] = "abac";
-    std::cout << strlen(a1) << std::endl;
+    int a[3][4] = {{1, 3, 5, 7}, {2, 4, 6, 8}, {3, 6, 9, 10}};
+    std::cout << a[0][0] << std::endl;
 }

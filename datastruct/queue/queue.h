@@ -1,4 +1,4 @@
-#include <stdlib.h>
+s#include <stdlib.h>
 #define MAXQSIZE 100 // 最大队列长度
 
 typedef int QElemType;

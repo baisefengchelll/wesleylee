@@ -19,7 +19,5 @@ typedef struct
     int curlen;
 }LSting;
 
-int index_BF(SString S, SString T)
-{
-    
-}
+int index_BF(SString S, SString T);
+int index_KMF(SString S, SString T);
