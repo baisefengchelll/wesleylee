@@ -1,3 +1,0 @@
-This is the write file
-Hello world!!!
-Operation finished!
