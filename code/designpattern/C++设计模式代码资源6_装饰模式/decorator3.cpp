@@ -9,7 +9,7 @@ public：
     virtual ~Stream(){}
 };
 
-//主体类
+//主体类，主体操作
 class FileStream: public Stream{
 public:
     virtual char Read(int number){
@@ -54,7 +54,7 @@ public:
 
 //扩展操作
 
-DecoratorStream: public Stream{
+class DecoratorStream: public Stream{
 protected:
     Stream* stream;//...
     

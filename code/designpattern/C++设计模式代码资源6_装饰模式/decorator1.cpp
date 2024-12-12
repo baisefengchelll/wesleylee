@@ -1,5 +1,5 @@
 //业务操作
-class Stream{
+class Stream{ //basic class
 public：
     virtual char Read(int number)=0;
     virtual void Seek(int position)=0;
